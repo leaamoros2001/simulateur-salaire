@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { PAGES_SEO } from '@/lib/pages-seo'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://salaire-net.fr'
+  const base = 'https://simulateur-salaire-sandy.vercel.app'
 
   return [
     {
