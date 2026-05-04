@@ -22,20 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <head>
-        {/* Google AdSense — décommenter après approbation */}
-        {/* <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-VOTRE_ID"
-          crossOrigin="anonymous"
-        /> */}
-        {/* Google Analytics — décommenter après setup */}
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
-        <script dangerouslySetInnerHTML={{__html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-XXXXXXXXXX');
-        `}} /> */}
+        <meta name="google-site-verification" content="qwzRjTkP3JEPRHeHS1gZkMVT5aCTLxxkcEou391joV4" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
